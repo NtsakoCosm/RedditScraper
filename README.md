@@ -9,9 +9,7 @@ This project is an asynchronous Reddit scraper that collects community URLs base
 - [Dependencies](#dependencies)
 - [Installation](#installation)
 - [Usage](#usage)
-- [Project Structure](#project-structure)
-- [Notes](#notes)
-- [License](#license)
+
 
 ## Features
 - **Community URL Scraping:** Searches Reddit communities based on a keyword.
@@ -31,4 +29,17 @@ This project is an asynchronous Reddit scraper that collects community URLs base
 - [Playwright](https://playwright.dev/python/docs/intro) (via `patchright.async_api` in this example)
 - [random](https://docs.python.org/3/library/random.html)
 
+## Installation
 
+1. **Clone the repository**  
+   ```bash
+   git clone https://github.com/NtsakoCosm/RedditScraper.git
+   cd RedditScraper
+
+
+## Usage
+
+├── README.md
+├── reddit.py           # Contains the main scraping code.
+├── utils.py                 # Utility functions for scrolling and browser actions.
+├── commentUtils.py          # Utility functions for processing comments.
