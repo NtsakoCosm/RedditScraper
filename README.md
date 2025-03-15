@@ -9,7 +9,7 @@ This project is an asynchronous Reddit scraper that collects community URLs base
 - [Dependencies](#dependencies)
 - [Installation](#installation)
 - [Usage](#usage)
-
+- [Structure](#structure)
 
 ## Features
 - **Community URL Scraping:** Searches Reddit communities based on a keyword.
@@ -38,6 +38,16 @@ This project is an asynchronous Reddit scraper that collects community URLs base
 
 
 ## Usage
+
+The script performs the following steps:
+
+Community URL Scraping: Searches for communities matching a specific keyword (default is "Science") and collects community URLs.
+Article Link Extraction: From the collected community URLs, it extracts article links.
+Comment Scraping: Visits each article URL to scrape comments.
+Output Generation: Saves the thread details and an index in threads.json and index.json, respectively.
+
+
+## Structure
 
 ├── README.md
 ├── reddit.py           # Contains the main scraping code.
