@@ -171,7 +171,7 @@ async def redScraper(now=datetime.datetime.now()):
         global globalCommentNum
         global actualGlobalCommentNum
         browser =  await p.chromium.launch(
-                channel="chrome",                   
+                                  
                 headless=False
             )
         
